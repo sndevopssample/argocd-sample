@@ -1,4 +1,3 @@
-replicaCount: 2
 
 mongo:
   dbport : 27018
@@ -83,6 +82,8 @@ autoscaling:
   maxReplicas: 10
   targetCPUUtilizationPercentage: 80
   # targetMemoryUtilizationPercentage: 80
+
+replicaCount: 1
 
 nodeSelector: {}
 
