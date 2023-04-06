@@ -7,10 +7,10 @@ mongo:
   dbPassword : "dbPassword11111111"
 
 image:
-  repository: sannrao/demo-devops-app
+  repository: httpd
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "latest"
   buildIdRef : grefBuildId
 
 
